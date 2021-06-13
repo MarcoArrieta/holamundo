@@ -1,0 +1,29 @@
+.menu li{
+	list-style: none;
+	color: #fff;
+	display: inline;
+	background:#fff ;
+	margin: 0 20px;
+	border-radius: 5px ;
+	padding: 5px 5px 5px 5px;
+}
+#texto{
+	text-align: center;
+	border-radius: 10px;
+	width: 80%;
+	background-color: #D1F2EB ;
+	padding: 5px;
+	margin: 5% 10px 10px 10%;
+}
+
+
+#piepagina{
+	color:#000;
+	text-align: center;
+	border-radius: 10px;
+	width: 80%;
+	margin: 30% 10% 10px;
+	height: 100px;
+	background-color: #fff ;
+	clear: both;
+}

@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
+	<form>
 	<h1>Ingresa un número entre 1 y 7</h1>
-	<label for="Numero">Numero</label>
-	<input type="text" id="Numero">
-	<input type="button" value="ACEPTAR" onclick="day(Numero.value)">
-
+	<label for="numero1">Numero 1</label>
+	<input type="text" id="numero1">
+	<input type="button" value="ACEPTAR" onclick="convierteDia(numero1.value)" >
+	<div id= "conver"> </div>
+	</form>
 	<script src="js/diasemanas.js"></script>
 </body>
 </html>

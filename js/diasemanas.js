@@ -1,20 +1,31 @@
-function dia(dia1){
-	var day = 0;
+function convierteDia(numero1){
+	let day;
+	day =parseFloat(numero1);
+	
 	switch (day){
 		case 1:
-		alert("LUNES");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Lunes </h>";
 		break;
 		case 2:
-		alert("MARTES");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Martes </h>";
+		break;
 		case 3:
-		alert("MIERCOLES");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Miercoles </h>";
+		break;
 		case 4:
-		alert("JUEVES");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Jueves </h>";
+		break;
 		case 5:
-		alert("VIERNES");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Viernes </h>";		
+		break;
 		case 6:
-		alert("SABADO");
+	    		document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Sabado </h>";		
+
+		break;
 		case 7:
-		alert("DOMINGO");
+				document.getElementById("conver").innerHTML= "<h1>El numero:" +day+ "equivale a Domingo </h>";	
+		break;
+		default:
+				document.write("La opcion ingresada no es valida");
 	}
 }

@@ -1,0 +1,47 @@
+body{
+
+	background-image: url(../images/6.jpg) ;
+}
+
+.menu li{
+	list-style: none;
+	color: #fff;
+	display: inline;
+	background:#000 ;
+	margin: 0 20px;
+	border-radius: 5px ;
+	padding: 5px 5px 5px 5px;
+}
+
+
+
+#encabezado{
+	text-align: center;
+	color: #fff ;
+	border-redius: 50px;
+	width: 80%;
+	margin: 10px 10px;
+	background-color:#000 ;
+	background-image:  ;
+}
+
+#piepagina{
+	color:#fff;
+	text-align: center;
+	border-radius: 10px;
+	width: 80%;
+	margin: 30% 10% 10px;
+	height: 100px;
+	 
+	
+}
+
+#juegos{
+	color:#fff;
+
+
+}
+
+#Actividades{
+	color: #fff;
+}
