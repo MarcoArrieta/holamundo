@@ -1,9 +1,0 @@
-#encabezado{
-	color: #000;
-	display: inline;
-	border-redius: 10px;
-	width: 80%;
-	margin: 10px 10px;
-	padding 10px 10px 10px 10px;
-	background-color: blue;
-}
