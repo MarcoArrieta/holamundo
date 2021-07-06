@@ -1,20 +1,32 @@
+//primer programa
 function edad(numero1){
 	let edad;
 	edad=parseFloat(numero1);
 
-	if(edad<=3){
-		document.getElementById("edad1").innerHTML="<h1>ERES UN BEBE</h1>";
-	}else if(edad>3&&edad<13){
-		document.getElementById("edad1").innerHTML="<h1>ERES UN NIÑO</h1>";
+	if(edad<18){
+		document.getElementById("edad1").innerHTML="<h1>ERES MENOR DE EAD</h1>";
+	}else if(edad>=18 &&edad<60){
+		document.getElementById("edad1").innerHTML="<h1>ERES MAYOR DE EDAD</h1>";
 
-	}else if(edad>13&&edad<18){
-        document.getElementById("edad1").innerHTML="<h1>ERES UN DOLOSCENTE</h1>";
+	}else if(edad>=60 &&edad<120){
+        document.getElementById("edad1").innerHTML="<h1>ERES ADULTO MAYOR</h1>";
 
-	}else{
-		 document.getElementById("edad1").innerHTML="<h1>ERES ADULTO</h1>";
+	}else if (edad>120) {
+		document.getElementById("edad1").innerHTML="<h1>INTRODUCE UNA EDAD VALIDA</h1>"
 
 	}
 	
 	
 	
+}
+
+//segundo programa
+
+function factorial(n) {
+	var total = 1; 
+	for (i=1; i<=n; i++) {
+		total = total * i; 
+	}
+	return total;
+	document.getElementById("factorial1").innerHTML=total; 
 }
